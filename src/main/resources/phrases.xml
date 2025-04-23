@@ -1,0 +1,253 @@
+<?xml version="1.0" ?>
+<phrases>
+  <phrase english="Hello">
+    <translation lang="tagalog">Kamusta</translation>
+    <translation lang="cebuano">Kumusta</translation>
+    <translation lang="ilocano">Kablaaw</translation>
+    <translation lang="hiligaynon">Kamusta</translation>
+    <translation lang="bicolano">Kamusta</translation>
+    <translation lang="waray">Kumusta</translation>
+    <translation lang="kapampangan">Kumusta</translation>
+    <translation lang="pangasinan">Kumusta</translation>
+  </phrase>
+  <phrase english="Hi">
+    <translation lang="tagalog">Hi</translation>
+    <translation lang="cebuano">Hi</translation>
+    <translation lang="ilocano">Hi</translation>
+    <translation lang="hiligaynon">Hi</translation>
+    <translation lang="bicolano">Hi</translation>
+    <translation lang="waray">Hi</translation>
+    <translation lang="kapampangan">Hi</translation>
+    <translation lang="pangasinan">Hi</translation>
+  </phrase>
+  <phrase english="Good morning">
+    <translation lang="tagalog">Magandang umaga</translation>
+    <translation lang="cebuano">Maayong buntag</translation>
+    <translation lang="ilocano">Naimbag a bigat</translation>
+    <translation lang="hiligaynon">Maayong aga</translation>
+    <translation lang="bicolano">Marhay na aga</translation>
+    <translation lang="waray">Maupay nga aga</translation>
+    <translation lang="kapampangan">Mayap a abak</translation>
+    <translation lang="pangasinan">Maabig ya abak</translation>
+  </phrase>
+  <phrase english="Good afternoon">
+    <translation lang="tagalog">Magandang hapon</translation>
+    <translation lang="cebuano">Maayong hapon</translation>
+    <translation lang="ilocano">Naimbag a malem</translation>
+    <translation lang="hiligaynon">Maayong hapon</translation>
+    <translation lang="bicolano">Marhay na hapon</translation>
+    <translation lang="waray">Maupay nga kulop</translation>
+    <translation lang="kapampangan">Mayap a gatpanapun</translation>
+    <translation lang="pangasinan">Maabig ya malem</translation>
+  </phrase>
+  <phrase english="Good evening">
+    <translation lang="tagalog">Magandang gabi</translation>
+    <translation lang="cebuano">Maayong gabii</translation>
+    <translation lang="ilocano">Naimbag a rabii</translation>
+    <translation lang="hiligaynon">Maayong gab-i</translation>
+    <translation lang="bicolano">Marhay na banggi</translation>
+    <translation lang="waray">Maupay nga gab-i</translation>
+    <translation lang="kapampangan">Mayap a bengi</translation>
+    <translation lang="pangasinan">Maabig ya labi</translation>
+  </phrase>
+  <phrase english="Good night">
+    <translation lang="tagalog">Magandang gabi</translation>
+    <translation lang="cebuano">Maayong gabii</translation>
+    <translation lang="ilocano">Naimbag a rabii</translation>
+    <translation lang="hiligaynon">Maayong gab-i</translation>
+    <translation lang="bicolano">Marhay na banggi</translation>
+    <translation lang="waray">Maupay nga gab-i</translation>
+    <translation lang="kapampangan">Mayap a bengi</translation>
+    <translation lang="pangasinan">Maabig ya labi</translation>
+  </phrase>
+  <phrase english="How are you?">
+    <translation lang="tagalog">Kamusta ka?</translation>
+    <translation lang="cebuano">Kumusta ka?</translation>
+    <translation lang="ilocano">Kumusta ka?</translation>
+    <translation lang="hiligaynon">Kamusta ka?</translation>
+    <translation lang="bicolano">Kamusta ka?</translation>
+    <translation lang="waray">Kumusta ka?</translation>
+    <translation lang="kapampangan">Kumusta ka?</translation>
+    <translation lang="pangasinan">Kumusta ka?</translation>
+  </phrase>
+  <phrase english="I'm fine">
+    <translation lang="tagalog">Ayos lang ako</translation>
+    <translation lang="cebuano">Okay ra ko</translation>
+    <translation lang="ilocano">Nasayaatak</translation>
+    <translation lang="hiligaynon">Ayos lang ako</translation>
+    <translation lang="bicolano">Ayos ako</translation>
+    <translation lang="waray">Maupay la ako</translation>
+    <translation lang="kapampangan">Okey ku</translation>
+    <translation lang="pangasinan">Nasayaat la ak</translation>
+  </phrase>
+  <phrase english="Nice to meet you">
+    <translation lang="tagalog">Ikinagagalak kitang makilala</translation>
+    <translation lang="cebuano">Nalipay ko nga nakaila ko nimo</translation>
+    <translation lang="ilocano">Naragsakak a makikita ka</translation>
+    <translation lang="hiligaynon">Nalipay ako nga nakilala ta</translation>
+    <translation lang="bicolano">Masayang makilala ka</translation>
+    <translation lang="waray">Nalilipay ako nga kilala kita</translation>
+    <translation lang="kapampangan">Masaya kung akilala ka</translation>
+    <translation lang="pangasinan">Nalipay ak tan akilala ka</translation>
+  </phrase>
+  <phrase english="Please">
+    <translation lang="tagalog">Pakiusap</translation>
+    <translation lang="cebuano">Palihug</translation>
+    <translation lang="ilocano">Pangngaasiyo</translation>
+    <translation lang="hiligaynon">Palihog</translation>
+    <translation lang="bicolano">Tabi</translation>
+    <translation lang="waray">Palihug</translation>
+    <translation lang="kapampangan">Paki</translation>
+    <translation lang="pangasinan">Pakiusap</translation>
+  </phrase>
+  <phrase english="Thank you">
+    <translation lang="tagalog">Salamat</translation>
+    <translation lang="cebuano">Salamat</translation>
+    <translation lang="ilocano">Agyamanak</translation>
+    <translation lang="hiligaynon">Salamat</translation>
+    <translation lang="bicolano">Dios mabalos</translation>
+    <translation lang="waray">Salamat</translation>
+    <translation lang="kapampangan">Dacal a salamat</translation>
+    <translation lang="pangasinan">Salamat</translation>
+  </phrase>
+  <phrase english="You're welcome">
+    <translation lang="tagalog">Walang anuman</translation>
+    <translation lang="cebuano">Walay sapayan</translation>
+    <translation lang="ilocano">Awan ti aniaman</translation>
+    <translation lang="hiligaynon">Wala sang anuman</translation>
+    <translation lang="bicolano">Walang anuman</translation>
+    <translation lang="waray">Waray sapayan</translation>
+    <translation lang="kapampangan">Ala yang anuman</translation>
+    <translation lang="pangasinan">Wala nen anoman</translation>
+  </phrase>
+  <phrase english="Excuse me">
+    <translation lang="tagalog">Paumanhin</translation>
+    <translation lang="cebuano">Ekskyus mi</translation>
+    <translation lang="ilocano">Ekskyus me</translation>
+    <translation lang="hiligaynon">Pasensiya</translation>
+    <translation lang="bicolano">Pasensya na</translation>
+    <translation lang="waray">Pasensya</translation>
+    <translation lang="kapampangan">Ekskyus me</translation>
+    <translation lang="pangasinan">Ekskyus me</translation>
+  </phrase>
+  <phrase english="Sorry">
+    <translation lang="tagalog">Pasensya na</translation>
+    <translation lang="cebuano">Pasayloa ko</translation>
+    <translation lang="ilocano">Pakawan</translation>
+    <translation lang="hiligaynon">Sorry</translation>
+    <translation lang="bicolano">Sorry</translation>
+    <translation lang="waray">Sorry</translation>
+    <translation lang="kapampangan">Pasensya na</translation>
+    <translation lang="pangasinan">Pasensya na</translation>
+  </phrase>
+  <phrase english="Yes">
+    <translation lang="tagalog">Oo</translation>
+    <translation lang="cebuano">Oo</translation>
+    <translation lang="ilocano">Wen</translation>
+    <translation lang="hiligaynon">Oo</translation>
+    <translation lang="bicolano">Iyo</translation>
+    <translation lang="waray">Oo</translation>
+    <translation lang="kapampangan">O</translation>
+    <translation lang="pangasinan">Wen</translation>
+  </phrase>
+  <phrase english="No">
+    <translation lang="tagalog">Hindi</translation>
+    <translation lang="cebuano">Dili</translation>
+    <translation lang="ilocano">Saan</translation>
+    <translation lang="hiligaynon">Indi</translation>
+    <translation lang="bicolano">Dai</translation>
+    <translation lang="waray">Diri</translation>
+    <translation lang="kapampangan">Ali</translation>
+    <translation lang="pangasinan">Ali</translation>
+  </phrase>
+  <phrase english="Maybe">
+    <translation lang="tagalog">Siguro</translation>
+    <translation lang="cebuano">Tingali</translation>
+    <translation lang="ilocano">Baka</translation>
+    <translation lang="hiligaynon">Basi</translation>
+    <translation lang="bicolano">Baka</translation>
+    <translation lang="waray">Bangin</translation>
+    <translation lang="kapampangan">Malyari</translation>
+    <translation lang="pangasinan">Baka</translation>
+  </phrase>
+  <phrase english="I don't understand">
+    <translation lang="tagalog">Hindi ko maintindihan</translation>
+    <translation lang="cebuano">Wala ko kasabot</translation>
+    <translation lang="ilocano">Diak maawatan</translation>
+    <translation lang="hiligaynon">Wala ko kasabot</translation>
+    <translation lang="bicolano">Dai ko aram</translation>
+    <translation lang="waray">Diri ako nakakaintindi</translation>
+    <translation lang="kapampangan">Ali ku akapamyalung</translation>
+    <translation lang="pangasinan">Ali ko maaram</translation>
+  </phrase>
+  <phrase english="Do you speak English?">
+    <translation lang="tagalog">Nagsasalita ka ba ng Ingles?</translation>
+    <translation lang="cebuano">Kahibalo ka og Ingles?</translation>
+    <translation lang="ilocano">Agsasao ka ti Ingles?</translation>
+    <translation lang="hiligaynon">Nakahambal ka sang Ingles?</translation>
+    <translation lang="bicolano">Nagsasabi ka nin Ingles?</translation>
+    <translation lang="waray">Maaram ka mag-Iningles?</translation>
+    <translation lang="kapampangan">Akapagsalita ka king English?</translation>
+    <translation lang="pangasinan">Agsasao ka ed English?</translation>
+  </phrase>
+  <phrase english="I don't speak the local language">
+    <translation lang="tagalog">Hindi ako marunong ng lokal na wika</translation>
+    <translation lang="cebuano">Dili ko kamao sa lokal nga sinultian</translation>
+    <translation lang="ilocano">Diak ammo ti lokal a pagsasao</translation>
+    <translation lang="hiligaynon">Indi ko kahibalo maghambal lokal</translation>
+    <translation lang="bicolano">Dai ako maaram nin lokal</translation>
+    <translation lang="waray">Diri ako maaram han lokal nga yinaknan</translation>
+    <translation lang="kapampangan">Ali ku balu ing lokal a amanu</translation>
+    <translation lang="pangasinan">Ali ko ammo'y lokal a salita</translation>
+  </phrase>
+  <phrase english="Help!">
+    <translation lang="tagalog">Tulong!</translation>
+    <translation lang="cebuano">Tabang!</translation>
+    <translation lang="ilocano">Tulong!</translation>
+    <translation lang="hiligaynon">Bulig!</translation>
+    <translation lang="bicolano">Tabang!</translation>
+    <translation lang="waray">Bulig!</translation>
+    <translation lang="kapampangan">Sagut!</translation>
+    <translation lang="pangasinan">Tulungan na ak!</translation>
+  </phrase>
+  <phrase english="Goodbye">
+    <translation lang="tagalog">Paalam</translation>
+    <translation lang="cebuano">Babay</translation>
+    <translation lang="ilocano">Agpakadaakon</translation>
+    <translation lang="hiligaynon">Paalam</translation>
+    <translation lang="bicolano">Paalam</translation>
+    <translation lang="waray">Adios</translation>
+    <translation lang="kapampangan">Pálan</translation>
+    <translation lang="pangasinan">Paalam</translation>
+  </phrase>
+  <phrase english="See you later">
+    <translation lang="tagalog">Hanggang sa muli</translation>
+    <translation lang="cebuano">Kita ta puhon</translation>
+    <translation lang="ilocano">Agkikita manen</translation>
+    <translation lang="hiligaynon">Makitaay ta liwat</translation>
+    <translation lang="bicolano">Makita ta liwat</translation>
+    <translation lang="waray">Kitaay ta liwat</translation>
+    <translation lang="kapampangan">Kitakits</translation>
+    <translation lang="pangasinan">Kitantayo manen</translation>
+  </phrase>
+  <phrase english="Take care">
+    <translation lang="tagalog">Ingat ka</translation>
+    <translation lang="cebuano">Amping</translation>
+    <translation lang="ilocano">Agannad ka</translation>
+    <translation lang="hiligaynon">Halong</translation>
+    <translation lang="bicolano">Mag-ingat ka</translation>
+    <translation lang="waray">Pag-amping</translation>
+    <translation lang="kapampangan">Magsilakad kang atiu</translation>
+    <translation lang="pangasinan">Ingat ka</translation>
+  </phrase>
+  <phrase english="Have a nice day">
+    <translation lang="tagalog">Magandang araw</translation>
+    <translation lang="cebuano">Maayong adlaw</translation>
+    <translation lang="ilocano">Naimbag nga aldaw</translation>
+    <translation lang="hiligaynon">Maayong adlaw</translation>
+    <translation lang="bicolano">Marhay na aldaw</translation>
+    <translation lang="waray">Maupay nga adlaw</translation>
+    <translation lang="kapampangan">Mayap a aldo</translation>
+    <translation lang="pangasinan">Maabig ya aldao</translation>
+  </phrase>
+</phrases>
