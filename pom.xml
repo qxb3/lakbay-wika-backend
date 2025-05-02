@@ -44,6 +44,12 @@
             <artifactId>lucene-queryparser</artifactId>
             <version>10.2.0</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.alphacephei</groupId>
+            <artifactId>vosk</artifactId>
+            <version>0.3.45</version>
+        </dependency>
     </dependencies>
 
 </project>

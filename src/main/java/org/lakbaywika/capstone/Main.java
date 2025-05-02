@@ -3,17 +3,17 @@ package org.lakbaywika.capstone;
 import io.javalin.Javalin;
 import org.apache.lucene.queryparser.classic.ParseException;
 import org.lakbaywika.capstone.phrases.PhrasesLoader;
-import org.lakbaywika.capstone.phrases.Translation;
+import org.vosk.Model;
+import org.vosk.Recognizer;
 import org.xml.sax.SAXException;
 
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.HashSet;
 
 public class Main {
     public static void main(String[] args) throws ParserConfigurationException, IOException, SAXException, ParseException {
+        Model model = new Model("/home/qxb3/Downloads/vosk-model-small-en-us-0.15");
         Javalin app = Javalin.create().start(4321);
 
         HashMap<String, HashMap<String, String>> phrases = PhrasesLoader.load();
@@ -40,10 +40,18 @@ public class Main {
 
             ctx.result(translatedText);
         });
-    }
 
-    public static String normalizeInput(String raw) {
-        if (raw == null) return null;
-        return raw.trim().replaceAll("\\s+", " ").toLowerCase();
+        app.post("/speech-to-text",  ctx -> {
+            Recognizer recognizer = new Recognizer(model, 16000);
+
+            byte[] speechBytes = ctx.bodyAsBytes();
+            recognizer.acceptWaveForm(speechBytes, speechBytes.length);
+
+            String result = recognizer.getFinalResult();
+
+            recognizer.close();
+
+            ctx.result(result);
+        });
     }
 }
