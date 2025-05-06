@@ -14,7 +14,8 @@ import java.util.HashMap;
 
 public class Main {
     public static void main(String[] args) throws ParserConfigurationException, IOException, SAXException, ParseException {
-        Model model = new Model("/home/qxb3/Downloads/vosk-model-small-en-us-0.15");
+        String modelPath = Main.class.getClassLoader().getResource("vosk-model-small-en-us-0.15").getPath();
+        Model model = new Model(modelPath);
         Javalin app = Javalin.create(config -> {
             config.bundledPlugins.enableCors(cors -> {
                 cors.addRule(it -> {
