@@ -1,6 +1,7 @@
 package org.lakbaywika.capstone;
 
 import io.javalin.Javalin;
+import io.javalin.plugin.bundled.CorsPlugin;
 import org.apache.lucene.queryparser.classic.ParseException;
 import org.lakbaywika.capstone.phrases.PhrasesLoader;
 import org.vosk.Model;
@@ -14,7 +15,13 @@ import java.util.HashMap;
 public class Main {
     public static void main(String[] args) throws ParserConfigurationException, IOException, SAXException, ParseException {
         Model model = new Model("/home/qxb3/Downloads/vosk-model-small-en-us-0.15");
-        Javalin app = Javalin.create().start(4321);
+        Javalin app = Javalin.create(config -> {
+            config.bundledPlugins.enableCors(cors -> {
+                cors.addRule(it -> {
+                    it.anyHost();
+                });
+            });
+        }).start(4321);
 
         HashMap<String, HashMap<String, String>> phrases = PhrasesLoader.load();
 
@@ -32,6 +39,11 @@ public class Main {
             }
 
             HashMap<String, String> translationList = PhrasesLoader.translate(phrases, text);
+            if (translationList == null) {
+                ctx.status(500).result("Cannot translate phrase");
+                return;
+            }
+
             String translatedText = translationList.get(targetLanguage);
             if (translatedText == null) {
                 ctx.status(500).result("Invalid targetLanguage.");

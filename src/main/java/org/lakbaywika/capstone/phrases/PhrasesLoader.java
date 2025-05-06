@@ -81,6 +81,11 @@ public class PhrasesLoader {
 
         TopDocs results = searcher.search(query, 5);
         System.out.println(results.totalHits);
+
+        if (results.scoreDocs.length == 0) {
+            return null;
+        }
+
         ScoreDoc topResult = results.scoreDocs[0];
 
         org.apache.lucene.document.Document doc = searcher.storedFields().document(topResult.doc);
