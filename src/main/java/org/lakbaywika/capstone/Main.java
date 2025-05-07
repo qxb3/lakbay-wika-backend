@@ -9,13 +9,15 @@ import org.vosk.Recognizer;
 import org.xml.sax.SAXException;
 
 import javax.xml.parsers.ParserConfigurationException;
+import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
 
 public class Main {
     public static void main(String[] args) throws ParserConfigurationException, IOException, SAXException, ParseException {
         String modelPath = Main.class.getClassLoader().getResource("vosk-model-small-en-us-0.15").getPath();
-        Model model = new Model(modelPath);
+        File modelFolder = new File(modelPath);
+        Model model = new Model(modelFolder.getPath());
         Javalin app = Javalin.create(config -> {
             config.bundledPlugins.enableCors(cors -> {
                 cors.addRule(it -> {
