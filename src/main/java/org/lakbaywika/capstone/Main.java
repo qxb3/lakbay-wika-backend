@@ -1,7 +1,6 @@
 package org.lakbaywika.capstone;
 
 import io.javalin.Javalin;
-import io.javalin.plugin.bundled.CorsPlugin;
 import org.apache.lucene.queryparser.classic.ParseException;
 import org.lakbaywika.capstone.phrases.PhrasesLoader;
 import org.vosk.Model;
@@ -11,10 +10,8 @@ import org.xml.sax.SAXException;
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.File;
 import java.io.IOException;
-import java.io.PipedReader;
 import java.sql.*;
-import java.util.HashMap;
-import java.util.UUID;
+import java.util.*;
 
 public class Main {
     static final String DB_URL = "jdbc:mysql://localhost:3306/lakbaywika";
@@ -76,6 +73,51 @@ public class Main {
             recognizer.close();
 
             ctx.result(result);
+        });
+
+        app.post("/feedback", ctx -> {
+            String userId = ctx.queryParam("userid");
+            String name = ctx.queryParam("name");
+            String feedback = ctx.queryParam("feedback");
+
+            if (userId == null || name == null || feedback == null) {
+                ctx.status(500).result("userid, name and feedback is required");
+                return;
+            }
+
+            PreparedStatement statement = connection.prepareStatement("INSERT INTO feedbacks (user_id, name, feedback) VALUES (?, ?, ?)");
+            statement.setString(1, userId);
+            statement.setString(2, name);
+            statement.setString(3, feedback);
+
+            int affected = statement.executeUpdate();
+            if (affected > 0) {
+                ctx.status(200).result("success");
+            } else {
+                ctx.status(500).result("Failed to send feedback, Please try again");
+            }
+        });
+
+        app.get("/list-feedbacks", ctx -> {
+            PreparedStatement statement = connection.prepareStatement("SELECT * FROM feedbacks");
+            ResultSet result = statement.executeQuery();
+
+            List<Map<String, Object>> jsonResult = new ArrayList<>();
+
+            while (result.next()) {
+                String userId = result.getString("user_id");
+                String name = result.getString("name");
+                String feedback = result.getString("feedback");
+
+                Map<String, Object> item = new HashMap<>();
+                item.put("user_id", userId);
+                item.put("name", name);
+                item.put("feedback", feedback);
+
+                jsonResult.add(item);
+            }
+
+            ctx.status(200).json(jsonResult);
         });
 
         app.get("/request-uuid", ctx -> {
